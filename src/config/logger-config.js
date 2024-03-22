@@ -1,3 +1,6 @@
+//WE USE THE PACKAGE NAME WINSTON FOR THE ERROR HANDLING 
+//IT GIVE AS THE ERROR OF FILE WHEN AND WHERE OUR CODE GIVE ERRORS.
+
 const { createLogger, format, transports } = require('winston');
 const { combine, timestamp, label, printf } = format;
 
